@@ -1,0 +1,46 @@
+{
+  "ekonomi": {
+    "taruhanMin": 100,
+    "taruhanMax": 100000000,
+    "pajakCoinflip": 0.05,
+    "pajakTransfer": 0.02,
+    "hadiahDaily": 5000,
+    "gajiKerja": 2500,
+    "cooldownDailyMs": 86400000,
+    "cooldownKerjaMs": 300000,
+    "cooldownRampokMs": 600000,
+    "cooldownGachaMs": 3600000,
+    "dendaRampok": 0.25,
+    "peluangRampok": 0.3
+  },
+  "permainan": {
+    "peluangMenangCasino": 0.45,
+    "peluangMenangSlot": 0.35,
+    "persenJackpot": 0.01,
+    "jackpotAwal": 100000,
+    "pengaliDadu": 5,
+    "pengaliTebak": 8,
+    "pengaliRouletteAngka": 36,
+    "pengaliRouletteHijau": 14,
+    "pengaliRouletteWarna": 2,
+    "pengaliTogel": 3000,
+    "pengaliHilo": 2
+  },
+  "antiSpam": {
+    "maxCommandPer10Detik": 5,
+    "cooldownBalasanMs": 7000,
+    "maxPanjangPesan": 200
+  },
+  "sistem": {
+    "backupTiapMs": 3600000,
+    "backupSimpan": 24,
+    "auditLog": true
+  },
+  "admin": {
+    "daftarAwal": ["sannbets"]
+  },
+  "teks": {
+    "prefixDeposit": "/pay",
+    "pemilikSaldo": "IsanKaramazv"
+  }
+}

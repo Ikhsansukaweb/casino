@@ -1,0 +1,12 @@
+{
+  "name": "isan-casino-bot",
+  "version": "1.0.0",
+  "description": "Bot Minecraft Bedrock casino via chat in-game untuk be.prownetwork.net",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.57.0"
+  }
+}

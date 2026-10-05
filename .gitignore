@@ -1,0 +1,42 @@
+# ==================== KREDENSIAL — JANGAN PERNAH DI-COMMIT ====================
+# Folder auth berisi cache token Xbox/Minecraft (XSTS, ltoken, refreshToken).
+# Siapa pun yang punya file ini bisa membajak akun bot. JANGAN di-push!
+auth/
+*.dat
+*_cache.json
+*-cache.json
+accounts.json
+client_id
+ltoken
+refreshToken
+save.dat
+
+# ==================== LOG & DATA RUNTIME ====================
+casino.log
+casino.log.*
+transaksi.log
+transaksi.log.*
+*.log
+database.json
+database.json.bak*
+backup/
+db-backup/
+backups/
+
+# ==================== BACKUP KODE (file .bak lokal) ====================
+*.bak
+*.bak[0-9]*
+bot.js.bak*
+db.js.bak*
+
+# ==================== DEPENDENSI ====================
+node_modules/
+package-lock.json
+
+# ==================== OS / EDITOR ====================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
